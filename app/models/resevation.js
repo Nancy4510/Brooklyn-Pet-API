@@ -18,7 +18,7 @@ const reservationSchema = new mongoose.Schema({
     required: true
   },
   servie: {
-    type:
+    type: String
   },
   date: {
     type: Number,
@@ -35,4 +35,4 @@ const reservationSchema = new mongoose.Schema({
   }
 })
 
-module.exports = mongoose.model('Rervation', reservationSchema)
+module.exports = mongoose.model('Reservation', reservationSchema)
