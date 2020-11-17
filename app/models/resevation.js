@@ -17,14 +17,14 @@ const reservationSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  servie: {
+  service: {
     type: String
   },
   date: {
     type: Number,
     required: true
   },
-  note: {
+  notes: {
     type: String,
     required: false
   },
