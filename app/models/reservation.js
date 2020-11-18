@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const reservationSchema = new mongoose.Schema({
-  fristName: {
+  firstName: {
     type: String,
     required: true
   },
@@ -21,7 +21,7 @@ const reservationSchema = new mongoose.Schema({
     type: String
   },
   date: {
-    type: Number,
+    type: Date,
     required: true
   },
   notes: {
